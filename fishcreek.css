@@ -35,7 +35,10 @@ footer{
 footer nav {
 	text-align: left)
 }
-
+#container { margin-left: auto;
+             margin-right:auto;
+			 width: 700px;
+		   }
 #wrapper {
     min-width 700;
 	miax-width 1024;
