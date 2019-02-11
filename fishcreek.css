@@ -15,7 +15,7 @@ body {
 header {
 	background-color: #000066;
 	color: #FFFFFF;
-	background-image: url("FishCreekImages/fishcreeklogo.gif");
+	background-image: url("FishCreekImages/newlogo.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -150,7 +150,7 @@ display: none;
 	/*Tablet*/
 @media only screen and (max-width: 768px) {
 	header {
-		background-image: url("FishCreekImages/fishcreeklogo.gif");
+		background-image: url("FishCreekImages/newlogo/jpg");
 		background-position: center;
 		background-repeat: no-repeat;
 	}
