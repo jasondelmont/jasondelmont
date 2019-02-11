@@ -1,3 +1,4 @@
+*
 {
 	box-sizing: border-box;
 }
@@ -6,7 +7,7 @@ header, nav, main, footer { display: block; }
 
 body {
 	background-color: #6699ff;
-	background-image: url"FishCreekImages/bluegradient.png";
+	background-image: url("FishCreekImages/bluegradient.png");
     color: #d5e3ff;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	}
@@ -14,7 +15,7 @@ body {
 header {
 	background-color: #000066;
 	color: #FFFFFF;
-	background-image: url"FishCreekImages/fishcreeklogo.gif";
+	background-image: url("FishCreekImages/fishcreeklogo.gif");
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -83,7 +84,7 @@ img {
 footer {
 	font-size: .70em;
 	font-style: italic;
-	padding: 10[x;
+	padding: 0;
 	margin-left: 180px;
 }
 
@@ -91,7 +92,7 @@ footer nav {
 	text-align: left;
 }
 
-#mobile {
+	#mobile {
 display: none; 
 }
 
@@ -138,7 +139,7 @@ display: none;
 	main {
 		font-size: 90%;
 		margin: 0;
-		left-padding: 2em; 
+		padding-left: 2em; 
 	}
 	footer {
 		margin: 0;
@@ -148,18 +149,50 @@ display: none;
 	
 	/*Tablet*/
 @media only screen and (max-width: 768px) {
+	header {
+		background-image: url("FishCreekImages/fishcreeklogo.gif");
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 	
+	h1 {
 		
+		font-size: 1.5em;
+		line-height: 120%;
+	}
+	
+	nav a {
+		display: block;
+		padding: .2em;
+		font-size: 1.3em;
+		border-bottom: 1px solid #330000;
+	
+	}
+	nav li {
+		display:block;
+	}
+	nav ul {
+		text-align: left;
+	}
+	
+	main {
+		padding-left: 1em; 
+	}
+	
+	.category {
+		text-shadow: none;
+	}
 	
 	
 	
-	
-}
-	
-	
-	
-	
-	
+	#mobile {
+	display: inline; 
+	}
+
+	#desktop {
+		display: none;
+	}
+}	
 	
 	
 	
