@@ -1,99 +1,50 @@
-header, nav, main, footer {display: block;)
+body { background-color: #6699ff;
+	       color: #d5e3ff;
+		   font-family: Verdana, Arial, Helvetica, sans-serif;
+		 }
+		
 
-
-{
-	box-sizing: border-box;
-}
-
-body {
-    background-color: #6699ff;
-    color: #D5E3FF;
-   font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-header {
-    color: #FFFFFF;
-	 background-color #000066;
-    font-family: serif;
-}
-h1 {
-	text-align:center;
-     color: #FFFFFF;
 	
-    font-size: 3em;
-	padding: 10px;
-	line-height: 150%;
-	text-shadow: #CCCCCC;
-}
-nav{
-	text-align:center;
-    font-weight: bold;
-	float: left;
-	width: 150px;
-}
-nav ul {
-	list-style-type: none;
-}
-nav a {
-	text-decoration: none;
-}
-
-nav a:link {
-	color: #3262A3;
-}
-nav a:visited {
-	color: #6699FF;
-}
-nav a:hover {
-	color: #CCCCCC;
-}
-
-
-.category {
-	text-shadow: 1px 1px 1px #667;
-    font-weight: bold;
-    color: #003366;
-	background-color: #FFFFFF;
-    font-size: 1.1em;
-}
-
-
-
-main {
-	margin-left: 180px;
-	padding-right: 20px; 
-	padding-bottom: 20px;
-}
+.category { background-color: #6699ff;
+            color: #003366;
+            font-weight: bold;
+	        font-size: 1.1em;
+				   }
 	
+.navBar{ margin-left: 0;
+         padding-left: 0;
+		 text-decoration:none;
+         list-style-type:none;}
+
+.navBar a:link {
+        color:#000066;}
 
 
+.navBar a:visited {
+           color:#000000;}
 
-
-footer{
-    font-style: italic;
-    font-size: .70em;
-	padding: 10px;
-	margin-left: 180px;
-
-
+.navBar a:hover {
+         color:#ff0000;
+         text-decoration:none;
 }
-footer nav {
-	text-align: left)
-}
-#container { margin-left: auto;
-             margin-right:auto;
+		   
+#img { padding: 10px; }
+		   
+#container { 
 			 width: 700px;
 		   }
-#wrapper {
-    min-width 700;
-	miax-width 1024;
-    margin-right: auto;
-    margin-left: auto;
-	background-color:#FFFFFF;
-	color: #000066;
-	
-}
+		   
+#footer { font-size: .70em;
+	      font-style: italic;
+			 }
+			 
+#logo { padding-left: 70px; }
 
-img {
-	border: none;
-}
+#leftcolumn { float: left; 
+              width: 140px;
+			  }
+			  
+#rightcolumn { margin-left: 170px; 
+              }
+
+img {border:0 }
