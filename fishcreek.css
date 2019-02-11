@@ -1,13 +1,5 @@
 header, nav, main, footer { display:block;}
 
-
-main{
-	margin-left: 180px;
-	padding-right: 20px;
-	padding-bottom: 20px; 
-}
-
-
 body { background-color: #6699ff;
 	       color: #d5e3ff;
 		   font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -15,7 +7,7 @@ body { background-color: #6699ff;
 		
 
 	
-.category { background-color: #FFFFFF;
+.category { background-color: #6699ff;
             color: #003366;
             font-weight: bold;
 	        font-size: 1.1em;
@@ -27,14 +19,14 @@ body { background-color: #6699ff;
          list-style-type:none;}
 
 .navBar a:link {
-        color:#3262A3;}
+        color:#000066;}
 
 
 .navBar a:visited {
-           color:#6699FF;}
+           color:#000000;}
 
 .navBar a:hover {
-         color:#CCCCCC;
+         color:#ff0000;
          text-decoration:none;
 }
 		   
