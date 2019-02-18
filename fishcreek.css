@@ -100,6 +100,16 @@ display: none;
 	display: inline;
 }
 
+table {
+	border: 2px solid #00008B;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 0.5em;
+	border: 2px solid #00008B;
+}
+
 /* Desktop*/
 @media only screen and (max-width: 1024px) {
 	
