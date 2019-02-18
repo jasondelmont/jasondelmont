@@ -29,18 +29,21 @@
 	
 	<h2>Contact Fish Creek</h2>
 	
+	<p> Required fields are marked with an asterisk. (*) </p>
+	
 	<form action= "post" method="http://webdevbasics.net/scripts/fishcreek.php>
-		<label for="myname">Name: </label>
-		<input type="text" name="myname" id="myname"> 
+		<label for="myname">* Name: </label>
+		<input type="text" name="myname" id="myname" required> 
 		
-		<label for="myemail">Email: </label>
-		<input type="text" name="myemail" id="myemail">
+		<label for="myemail">* Email: </label>
+		<input type="text" name="myemail" id="myemail" required>
 		
-		<label for="mycomments">Name: </label>
-		<textarea name="mycomments" id="mycomments" rows="2" cols="20">
+		<label for="mycomments">* Comments: </label>
+		<textarea name="mycomments" id="mycomments" rows="2" cols="20" required>
 		</textarea>
 		<br>
-		<input type="submit" name="mysubmit" id="mysubmit" value="Send Now">
+		<input type="submit" name="mysubmit" id="mysubmit" value="Send Now"
+		id="mysubmit">
 
 	</form>
 	
