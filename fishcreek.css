@@ -126,6 +126,13 @@ input, textarea {
 	margin-left: 9.5em;
 }
 
+video {
+	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
 /* Desktop*/
 @media only screen and (max-width: 1024px) {
 	
